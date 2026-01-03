@@ -1,0 +1,147 @@
+*{
+    margin: 0px;
+}
+
+/* Element selector */
+h1{
+    color:rgb(243, 227, 227);
+}
+body{
+    background-color:#6495ED;
+}
+/* class  selector */
+
+.form-label{
+    color:#4f76be;
+    font-family:Comic Sans MS;
+}
+.form-control{
+    width:100%;
+    /* border-top:10px solid rgb(14, 5, 5);
+    border-bottom:10px solid rgb(27, 6, 6); */
+   /* border:2px solid green; */
+   border:none;
+   border-radius:12px;
+   background-color:#c9daf9 ;
+   padding:10px;
+}
+.form-group{
+    width:100%;
+    /* border:1px solid #88adf1 ; */
+    text-align:center;
+    /* padding-left:20px;
+    padding-right:20px;
+    padding-bottom:20px; */
+    padding:10px;
+   
+}
+.title{
+    text-align: center;
+    font-family:Freestyle Script;
+    letter-spacing:2px;
+}
+.form{
+    width:50%;
+    border:1px solid #98b9f7;
+    margin-left:auto;
+    margin-right:auto;
+
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    padding:10px;
+    gap:10px;
+    border-radius: 10px;
+    box-shadow: 0px 1px 3px;
+    background-image: linear-gradient(173deg, #98b9f7, #88adf1);
+}
+.rows{
+    width:100%;
+    display: flex;
+    gap:10px;
+    /* border-bottom:1px solid #98b9f7;
+    padding-bottom: 10px; */
+    justify-content: center;
+}
+
+.radio-button{
+    width:auto;
+}
+.btn{
+    border:none;
+    background-image: linear-gradient(45deg, #5b7db9, #274f9b);
+    padding: 10px;
+    border-radius: 12px 12px 12px 68px;
+}
+.rows a{
+    text-decoration: none;
+    color:#ebeff6;
+    font-size: 20px;
+    font-family:Franklin Gothic Book;
+}
+.login{
+    width:60%;
+}
+.about{
+    width:80%;
+    margin-left:auto;
+    margin-right:auto;
+  
+}
+.about h1{
+    text-align: center;
+    color:#ebeff6;
+}
+.about p{
+    text-align:justify;
+    line-height: 50px;
+    color:white;
+    font-size: 19px;
+    font-family:Franklin Gothic Book ;
+}
+.form-control::placeholder{
+    color:white;
+    text-align: center;
+}
+.header{
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom:50px;
+    background-color: #041d4b;
+    padding:20px;
+}
+.logo{
+    width:30%;
+}
+.logo span{
+    font-size: 40px;
+    font-family:Harlow Solid;
+    color:white;
+}
+.logo span i {
+    color:aquamarine;
+    font-size: 60px;
+}
+.navs{
+    width:50%;
+    display: flex;
+    gap:10px;
+    align-items: center;
+}
+.navs a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.social{
+    width:20%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.social a i{
+    color: #e2b41d;
+    font-size: 17px;
+}
