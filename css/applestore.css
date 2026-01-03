@@ -41,7 +41,7 @@ body{
     letter-spacing:2px;
 }
 .form{
-    width:50%;
+    width:25%;
     border:1px solid #98b9f7;
     margin-left:auto;
     margin-right:auto;
@@ -57,7 +57,7 @@ body{
     background-image: linear-gradient(173deg, #98b9f7, #88adf1);
 }
 .rows{
-    width:100%;
+    width:15%;
     display: flex;
     gap:10px;
     /* border-bottom:1px solid #98b9f7;
