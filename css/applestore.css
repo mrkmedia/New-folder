@@ -1,147 +1,70 @@
-*{
-    margin: 0px;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
 }
 
-/* Element selector */
-h1{
-    color:rgb(243, 227, 227);
-}
-body{
-    background-color:#6495ED;
-}
-/* class  selector */
-
-.form-label{
-    color:#4f76be;
-    font-family:Comic Sans MS;
-}
-.form-control{
-    width:100%;
-    /* border-top:10px solid rgb(14, 5, 5);
-    border-bottom:10px solid rgb(27, 6, 6); */
-   /* border:2px solid green; */
-   border:none;
-   border-radius:12px;
-   background-color:#c9daf9 ;
-   padding:10px;
-}
-.form-group{
-    width:100%;
-    /* border:1px solid #88adf1 ; */
-    text-align:center;
-    /* padding-left:20px;
-    padding-right:20px;
-    padding-bottom:20px; */
-    padding:10px;
-   
-}
-.title{
-    text-align: center;
-    font-family:Freestyle Script;
-    letter-spacing:2px;
-}
-.form{
-    width:40%;
-    border:1px solid #98b9f7;
-    margin-left:auto;
-    margin-right:auto;
-
-    display:flex;
-    flex-direction: column;
-    justify-content:center;
-    align-items: center;
-    padding:10px;
-    gap:10px;
-    border-radius: 10px;
-    box-shadow: 0px 1px 3px;
-    background-image: linear-gradient(173deg, #98b9f7, #88adf1);
-}
-.rows{
-    width:15%;
+body {
+    min-height: 100vh;
     display: flex;
-    gap:10px;
-    /* border-bottom:1px solid #98b9f7;
-    padding-bottom: 10px; */
     justify-content: center;
+    align-items: center;
+    background: #f4f4f4;
+    padding: 20px;
 }
 
-.radio-button{
-    width:auto;
+.form {
+    width: 100%;
+    max-width: 420px;
+    background: #fff;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
 }
-.btn{
-    border:none;
-    background-image: linear-gradient(45deg, #5b7db9, #274f9b);
-    padding: 10px;
-    border-radius: 12px 12px 12px 68px;
-}
-.rows a{
-    text-decoration: none;
-    color:#ebeff6;
-    font-size: 20px;
-    font-family:Franklin Gothic Book;
-}
-.login{
-    width:60%;
-}
-.about{
-    width:80%;
-    margin-left:auto;
-    margin-right:auto;
-  
-}
-.about h1{
+
+.title {
     text-align: center;
-    color:#ebeff6;
+    margin-bottom: 20px;
+    font-size: 24px;
 }
-.about p{
-    text-align:justify;
-    line-height: 50px;
-    color:white;
-    font-size: 19px;
-    font-family:Franklin Gothic Book ;
+
+.rows {
+    margin-bottom: 15px;
 }
-.form-control::placeholder{
-    color:white;
-    text-align: center;
-}
-.header{
-    width:100%;
-    display: flex;
-    justify-content: space-between;
-    margin-bottom:50px;
-    background-color: #041d4b;
-    padding:20px;
-}
-.logo{
-    width:30%;
-}
-.logo span{
-    font-size: 40px;
-    font-family:Harlow Solid;
-    color:white;
-}
-.logo span i {
-    color:aquamarine;
-    font-size: 60px;
-}
-.navs{
-    width:50%;
-    display: flex;
-    gap:10px;
-    align-items: center;
-}
-.navs a{
-    text-decoration: none;
-    color: white;
-    font-size: 20px;
-}
-.social{
-    width:20%;
+
+.btn {
+    width: 100%;
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 10px;
+    padding: 14px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 8px;
+    transition: 0.3s ease;
 }
-.social a i{
-    color: #e2b41d;
-    font-size: 17px;
+
+/* Button Colors */
+.instagram { background: #e1306c; }
+.facebook  { background: #1877f2; }
+.whatsapp  { background: #25d366; }
+
+.btn:hover {
+    opacity: 0.9;
+    transform: scale(1.02);
+}
+
+/* 📱 Mobile Responsive */
+@media (max-width: 480px) {
+    .title {
+        font-size: 20px;
+    }
+
+    .btn {
+        font-size: 14px;
+        padding: 12px;
+    }
 }
